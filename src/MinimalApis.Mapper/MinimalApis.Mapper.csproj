@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>MinimalApis.Mapper</RootNamespace>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>MinimalApis.Mapper</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Tangerine</Authors>
+        <Description>Auto mapping extensions for Minimal API.</Description>
+        <PackageTags>aspnetcore minimalapi endpoint</PackageTags>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <!-- This brings in required ASP.NET Core types like IEndpointRouteBuilder -->
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+</Project>

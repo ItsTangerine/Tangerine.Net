@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DDE079AB-1B17-4705-93A0-C05D207E9C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApis.Mapper", "src\MinimalApis.Mapper\MinimalApis.Mapper.csproj", "{B8801000-48F6-45C4-AFD6-956AC18E6E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimapApis.FluentValidation", "src\MinimapApis.FluentValidation\MinimapApis.FluentValidation.csproj", "{0BD672B9-A966-412F-8D91-9A59044416CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8801000-48F6-45C4-AFD6-956AC18E6E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8801000-48F6-45C4-AFD6-956AC18E6E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8801000-48F6-45C4-AFD6-956AC18E6E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8801000-48F6-45C4-AFD6-956AC18E6E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD672B9-A966-412F-8D91-9A59044416CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD672B9-A966-412F-8D91-9A59044416CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD672B9-A966-412F-8D91-9A59044416CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD672B9-A966-412F-8D91-9A59044416CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8801000-48F6-45C4-AFD6-956AC18E6E6B} = {DDE079AB-1B17-4705-93A0-C05D207E9C20}
+		{0BD672B9-A966-412F-8D91-9A59044416CF} = {DDE079AB-1B17-4705-93A0-C05D207E9C20}
+	EndGlobalSection
+EndGlobal
