@@ -9,11 +9,22 @@
 
     <PropertyGroup>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageId>Tangerine.MinimalApis.Mapper</PackageId>
+        <PackageId>Tangerine.MinimalApis.FluentValidation</PackageId>
         <Version>1.0.0</Version>
         <Authors>Tangerine</Authors>
         <Description>Fluent Validation extensions for Minimal API.</Description>
         <PackageTags>aspnetcore minimalapi endpoint</PackageTags>
+        
+        <RepositoryType>git</RepositoryType>
+        <License>MIT</License>
+        <PackageProjectUrl>https://github.com/ItsTangerine/Tangerine.Net</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ItsTangerine/Tangerine.Net</RepositoryUrl>
+
+        <IncludeSource>true</IncludeSource>
+        <IncludeSymbols>true</IncludeSymbols>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
 
     <ItemGroup>
